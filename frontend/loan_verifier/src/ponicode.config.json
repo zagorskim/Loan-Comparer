@@ -1,0 +1,11 @@
+{
+    "schemaVersion": "1",
+    "javascript": {
+        "name": "loan_verifier",
+        "rootDir": "./",
+        "testEnvironment": "node",
+        "testLocationStrategy": "relativeToProjectRoot",
+        "testLocationFolder": "./ponicode",
+        "testNamePattern": "{name}Test.{ext}"
+    }
+}

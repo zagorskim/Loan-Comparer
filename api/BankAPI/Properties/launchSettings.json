@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "IIS Express": {
+    "commandName": "IISExpress",
+    "launchBrowser": true,
+    "launchUrl": "swagger",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Development"
+    }
+  },
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:62986",
+      "sslPort": 44395
+    }
+  },
+  "profiles": {
+    "BankAPI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DBCONNECTIONSTRING": "Server=tcp:bankapidbserver.database.windows.net,1433;Initial Catalog=BankAPI_db;Persist Security Info=False;User ID=bankapiadmin;Password=PasswordAdmin1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+      },
+      "applicationUrl": "https://localhost:56718;http://localhost:56719"
+    }
+  }
+}

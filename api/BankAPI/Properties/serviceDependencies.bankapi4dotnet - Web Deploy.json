@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/BankAPIapi/apis/BankAPI",
+      "type": "apis.azure"
+    },
+    "storage1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Storage/storageAccounts/bankapi",
+      "type": "storage.azure",
+      "connectionId": "ConnectionStrings:AzureBlobStorage"
+    },
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bankapidbserver/databases/BankAPI_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ProdConnectionString"
+    }
+  }
+}

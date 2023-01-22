@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HelperFunctions.ValidateDates 0 1`] = `true`;
+
+exports[`HelperFunctions.ValidateDates 1 1`] = `true`;
+
+exports[`HelperFunctions.ValidateDates 2 1`] = `false`;
+
+exports[`HelperFunctions.ValidateDates 3 1`] = `false`;
+
+exports[`HelperFunctions.ValidateDates 4 1`] = `false`;
+
+exports[`HelperFunctions.ValidateDates 5 1`] = `false`;
+
+exports[`HelperFunctions.ValidateEmail 0 1`] = `true`;
+
+exports[`HelperFunctions.ValidateEmail 1 1`] = `true`;
+
+exports[`HelperFunctions.ValidateEmail 2 1`] = `false`;
+
+exports[`HelperFunctions.ValidateEmail 3 1`] = `false`;
+
+exports[`HelperFunctions.ValidateEmail 4 1`] = `false`;
+
+exports[`HelperFunctions.ValidateEmail 5 1`] = `true`;
+
+exports[`HelperFunctions.ValidateLetters 0 1`] = `false`;
+
+exports[`HelperFunctions.ValidateLetters 1 1`] = `false`;
+
+exports[`HelperFunctions.ValidateLetters 2 1`] = `false`;
+
+exports[`HelperFunctions.ValidateLetters 3 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumeric 0 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumeric 1 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumeric 2 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumeric 3 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumeric 4 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumeric 5 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumericLoan 0 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumericLoan 1 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumericLoan 2 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumericLoan 3 1`] = `true`;
+
+exports[`HelperFunctions.ValidateNumericLoan 4 1`] = `true`;
+
+exports[`HelperFunctions.ValidatePassword 0 1`] = `false`;
+
+exports[`HelperFunctions.ValidatePassword 1 1`] = `true`;
+
+exports[`HelperFunctions.ValidatePassword 2 1`] = `false`;
+
+exports[`HelperFunctions.ValidatePassword 3 1`] = `false`;
+
+exports[`HelperFunctions.ValidatePassword 4 1`] = `true`;

@@ -1,6 +1,3 @@
-
-![alt text](https://bankapi.blob.core.windows.net/upload-file/mini_znak_dlugi_60_bm3.png)
-
 # Loan Comparer
 
 ## Introduction 
